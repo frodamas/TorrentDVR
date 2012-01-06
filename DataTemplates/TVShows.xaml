@@ -1,0 +1,9 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:base="clr-namespace:TorrentDVR">
+
+    <DataTemplate DataType="{x:Type base:TVShowModel}">
+        <base:TVShowView />
+    </DataTemplate>
+    
+</ResourceDictionary>

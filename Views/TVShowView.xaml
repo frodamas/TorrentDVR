@@ -21,7 +21,7 @@
             <ColumnDefinition Width="Auto"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <TextBlock FontSize="22" FontWeight="Bold" Text="{Binding Name}"></TextBlock>
+        <TextBlock Style="{StaticResource TitleTextblockStyle}" Text="{Binding Name}"></TextBlock>
         <StackPanel Grid.Row="1" Orientation="Horizontal">
             <TextBlock >Download TV Series:</TextBlock>
             <RadioButton>Yes</RadioButton>

@@ -5,5 +5,8 @@
     <DataTemplate DataType="{x:Type base:TVShowModel}">
         <base:TVShowView />
     </DataTemplate>
-    
+    <DataTemplate DataType="{x:Type base:SeasonModel}">
+        <base:SeasonView />
+    </DataTemplate>
+
 </ResourceDictionary>

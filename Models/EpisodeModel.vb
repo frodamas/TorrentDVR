@@ -2,6 +2,12 @@
     Implements IMediaFile
     Implements ITVShowStructure
 
+    Public Enum EpisodeStatuses As Integer
+        Downloaded = 0
+        PendingDownload = 1
+        Downloading = 2
+
+    End Enum
     Public Property EpisodeNumber As Integer
 
     Public Property HasBeenDownloaded As Boolean Implements IMediaFile.HasBeenDownloaded
@@ -15,6 +21,9 @@
     Public Property Season As SeasonModel
 
     Public Property TVShow As TVShowModel
+
+    Public Property EpisodeStatus As EpisodeStatuses
+
 End Class
 
 Public Interface ITVShowStructure

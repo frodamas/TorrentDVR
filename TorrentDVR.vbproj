@@ -66,11 +66,16 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="ViewModels\TVShowsViewModel.vb" />
+    <Compile Include="ViewModels\BaseViewModel.vb" />
+    <Compile Include="ViewModels\TVShowViewModel.vb" />
     <Compile Include="Views\TVShowView.xaml.vb">
       <DependentUpon>TVShowView.xaml</DependentUpon>
     </Compile>
     <Page Include="DataTemplates\TVShows.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DefaultStyles.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

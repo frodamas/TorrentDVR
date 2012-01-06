@@ -7,7 +7,7 @@
             <ResourceDictionary.MergedDictionaries>
 
                 <ResourceDictionary Source="/DataTemplates/TVShows.xaml"/>
-
+                <ResourceDictionary Source="/DefaultStyles.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
 

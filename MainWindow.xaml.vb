@@ -1,12 +1,12 @@
 ﻿Class MainWindow
-    Private _vm As TVShowsViewModel
+    Private _vm As TVShowViewModel
     Public Sub New()
 
         ' This call is required by the designer.
         InitializeComponent()
 
         ' Add any initialization after the InitializeComponent() call.
-        _vm = New TVShowsViewModel
+        _vm = New TVShowViewModel
         Me.DataContext = _vm
     End Sub
 

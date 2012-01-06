@@ -12,12 +12,9 @@
 
     Public Property Name As String Implements IMediaFile.Name, ITVShowStructure.Name
 
-    Public Property SeasonName As String
+    Public Property Season As SeasonModel
 
-    Public Property ShowName As String
-
-
-
+    Public Property TVShow As TVShowModel
 End Class
 
 Public Interface ITVShowStructure

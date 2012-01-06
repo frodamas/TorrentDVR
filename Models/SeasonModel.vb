@@ -5,6 +5,6 @@
 
     Public Property Episodes As New List(Of EpisodeModel)
 
-    Public Property ShowName As String
+    Public Property TVShow As TVShowModel
 
 End Class
